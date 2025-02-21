@@ -7,6 +7,8 @@ const path = require('path');
 const watchDir = path.join(__dirname, 'watched_files');
 
 // Log file path
+
+
 const logFile = path.join(__dirname, 'file_changes_log.txt');
 
 // Ensure directory exists
