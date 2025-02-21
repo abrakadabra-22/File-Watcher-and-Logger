@@ -14,6 +14,8 @@ if (!fs.existsSync(watchDir)) {
     fs.mkdirSync(watchDir);
 }
 
+
+
 // Function to log file changes
 function logFileChange(eventType, filename) {
     if (!filename) return;
